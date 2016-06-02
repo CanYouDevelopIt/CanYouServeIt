@@ -6,7 +6,7 @@ public class EchoServer extends MyServer {
 	private static Logger logger = Logger.getLogger(EchoServer.class.getCanonicalName());
 
 	public EchoServer() {
-		super(8899, 50, "echo.EchoRequestHandler", 2000, 5, 10);
+		super(2345, 50, "echo.EchoRequestHandler", 2000, 5, 10);
 	}
 
 	public static void main(String args[]) throws Exception {
